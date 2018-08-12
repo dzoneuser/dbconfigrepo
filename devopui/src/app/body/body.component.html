@@ -1,0 +1,11 @@
+<p>
+  body works!
+</p>
+
+<div (click)="clickfun()"> clickfun</div>
+
+<div *ngFor="let data of datalist">
+    <div id="widget"  [routerLink]="['/widget',data.name]">
+      name:{{data.name}} -------{{data.desc}}
+    </div>
+  </div>

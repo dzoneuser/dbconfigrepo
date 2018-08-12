@@ -1,0 +1,8 @@
+<p>
+  widget-detail works! {{param}}
+</p>
+ <div *ngFor="let data of datalist" >
+    <div *ngIf="data.name==param;">
+      widget ==  name:{{data.name}} -------{{data.desc}}
+    </div>
+  </div> 

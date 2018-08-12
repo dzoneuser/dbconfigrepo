@@ -1,0 +1,6 @@
+[
+    {"name":"docker","url":"www.dockerurl.com","desc":"this_ is the docker description from local file"},
+    {"name":"zelenium","url":"www.zelenium.com","desc":"this_ is the zelenium description"},
+    {"name":"inspec","url":"www.inspec.com","desc":"this_ is the inspec description"},
+    {"name":"openshift","url":"www.openshift.com","desc":"this_ is the openshift description"}
+]
