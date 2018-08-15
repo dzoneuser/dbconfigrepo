@@ -1,0 +1,19 @@
+<div class="widgetcontainer">
+    <div *ngFor="let data of datalist">
+          
+          <div id="widget"   class ="widgetelement" >
+            <img [routerLink]="['/widget',data.name]" src="/assets/images/{{data.name}}.jpg" class="widgeticon" alt="{{data.name}}" >
+            
+          </div>
+    </div>
+  </div>
+
+
+  <div class="widgetdescription">
+      <div *ngFor="let data of datalist" >
+          <div *ngIf="data.name==param;">
+            widget ==  name:{{data.name}} -------{{data.desc}}
+          </div>
+        </div> 
+        
+  </div>

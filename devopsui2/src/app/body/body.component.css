@@ -1,0 +1,28 @@
+.widgetcontainer{
+    margin:auto;
+    background: #f30808;
+    width:20%;
+    height:10%;
+}
+
+.widgetelement{
+    /*
+    margin:auto;
+    padding:10px;
+    height:50px;
+    width:50px; */
+    
+    padding:10px;
+    float: left;
+    display:block;
+    width: 100px;
+    height: 40px;
+    /*this arranges as table*/
+}
+
+.widgeticon{
+    /* margin:20px; */
+    /* float:right; */
+    height:50px;
+    width:50px;
+}
